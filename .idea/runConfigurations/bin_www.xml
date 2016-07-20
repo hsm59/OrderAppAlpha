@@ -3,9 +3,13 @@
     <envs>
       <env name="DEBUG" value="OrderAppAlpha:*" />
     </envs>
-    <browser url="http://localhost:3000/" />
+    <browser url="http://localhost:8888/" />
+    <profiling v8-profiler-path="" />
+    <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+      <profiling v8-profiler-path="" />
+    </EXTENSION>
     <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
-      <browser url="http://localhost:3000/" />
+      <browser url="http://localhost:8888/" />
     </EXTENSION>
     <method />
   </configuration>
