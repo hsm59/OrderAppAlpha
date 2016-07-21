@@ -1,8 +1,11 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
 
-a {
-  color: #00B7FF;
+
+h3 a {
+  color: rgb(239, 252, 255);
+    text-decoration: none;
+}
+html body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", "Helvetica", sans-serif;
 }
