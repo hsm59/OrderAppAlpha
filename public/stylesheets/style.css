@@ -1,11 +1,15 @@
 
 
 h3 a {
-  color: rgb(239, 252, 255);
+    color: rgb(239, 252, 255);
     text-decoration: none;
 }
 html body{
     padding: 0;
     margin: 0;
     font-family: "Roboto", "Helvetica", sans-serif;
+}
+
+p{
+    padding: 0 ;
 }
